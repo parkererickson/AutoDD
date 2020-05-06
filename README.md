@@ -1,8 +1,8 @@
 # AutoDD
 Automatically does the "due diligence" for you. 
 
-If you want to know what shares people are talking about in r/pennystocks, this 
-is the tool for you. 
+If you want to know what stocks people are talking about in r/pennystocks over 
+at Reddit, this is the tool for you. 
 
 ## Installation
 There is a ``Pipfile`` for pipenv, if you are into that. It was automatically 

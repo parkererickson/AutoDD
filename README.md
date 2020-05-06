@@ -17,6 +17,22 @@ Simply type in:
 It will output the most frequently discussed 3-4 letter full-cap words in
 r/pennystocks
 
+## Example output
+
+    Code    Frequency
+    MVIS    198
+    IZEA    106
+    KTOV    30
+    RTTR    30
+    MARK    21
+    GNUS    12
+    MSFT    12
+    INUV    11
+    DECN    11
+    TTI     10
+    UAVS    10
+    ...
+
 ## License
 
     AutoDD - Automatically does the "due diligence" for you. 

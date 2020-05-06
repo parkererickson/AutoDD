@@ -37,19 +37,17 @@ def get_submission(n):
     return gen
 
 
-def get_freq_list(n):
+def get_freq_list(gen):
     """
     Return the frequency list for the past n days
 
-    :param int n: The number of days in the past
+    :param int gen: The generator for subreddit submission
     :returns:
         - all_tbl - frequency table for all stock mentions
         - title_tbl - frequency table for stock mentions in titles
         - selftext_tbl - frequency table for all stock metninos in selftext
     """
 
-    # Get yesterday's submissions
-    gen = get_submission(n)
     # Python regex pattern for stocks codes
     pattern = "[A-Z]{3,4}"
     # Dictionary containing the summaries
@@ -122,6 +120,7 @@ def print_tbl(tbl):
 
 
 if __name__ == '__main__':
-    all_tbl, _, _ = get_freq_list(1)
+    gen = get_submission(1)  # Get 1 day worth of submission
+    all_tbl, _, _ = get_freq_list(gen)
     all_tbl = filter_tbl(all_tbl, 2)
     print_tbl(all_tbl)

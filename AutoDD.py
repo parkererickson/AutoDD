@@ -1,6 +1,9 @@
-"""
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+""" AutoDD: Automatically does the so called Due Diligence for you. """
+__author__ = "Fufu Fang"
+__copyright__ = "The GNU General Public License v3.0"
 
-"""
 from psaw import PushshiftAPI
 from datetime import datetime, timedelta
 import re

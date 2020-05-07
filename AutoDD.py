@@ -102,7 +102,7 @@ def filter_tbl(tbl, min):
     """
     BANNED_WORDS = [
         'THE', 'FUCK', 'ING', 'CEO', 'USD', 'WSB', 'FDA', 'NEWS', 'FOR', 'YOU',
-        'BUY', 'HEAR', 'HIGH', 'ADS', 'FOMO', 'THIS', 'OTC', 'ELI', 'IMO',
+        'BUY', 'HIGH', 'ADS', 'FOMO', 'THIS', 'OTC', 'ELI', 'IMO',
         'CBS', 'SEC', 'NOW', 'OVER', 'ROPE', 'MOON'
     ]
     tbl = [row for row in tbl if row[1] > min]
